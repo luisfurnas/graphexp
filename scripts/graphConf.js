@@ -3,14 +3,14 @@
 
 // if host is set, will override default localhost server option
 //const host = "some_gremlin_server"
-const host = false;
+const host = "localhost";
 
 // For implementations like Neptune where only single commands are allowed per request
 // set to true
-const SINGLE_COMMANDS_AND_NO_VARS = false;
+const SINGLE_COMMANDS_AND_NO_VARS = true;
 // For implementations like Neptune where communication only over https is allowed
 // set to true
-const REST_USE_HTTPS = false;
+const REST_USE_HTTPS = true;
 
 // Time out for the REST protocol. Increase it if the graphDB is slow.
 const REST_TIMEOUT = 2000 
