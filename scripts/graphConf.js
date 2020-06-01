@@ -13,7 +13,7 @@ const SINGLE_COMMANDS_AND_NO_VARS = true;
 const REST_USE_HTTPS = true;
 
 // Time out for the REST protocol. Increase it if the graphDB is slow.
-const REST_TIMEOUT = 5000
+const REST_TIMEOUT = 10000
 // TODO: configuration for the secure server
 
 // limit number of nodes and edges to query for graph info
